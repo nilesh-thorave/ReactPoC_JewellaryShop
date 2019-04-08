@@ -6,7 +6,7 @@ It contains a Loopback server which provides backend apis and a React client app
 
 ## Loopback Server
 Server conatines majorly 3 resources Users, Products and Feedback. It uses MongoDB as a datasource.
-You can see the server apis by hitting `/explorer` path. eg.- "http://localhost:3000/explorer/#/"
+You can see the server apis by hitting *`/explorer`* path. eg.- "http://localhost:3000/explorer/#/"
 
 ### Resources
 | Resouece Name  | Description |
@@ -16,14 +16,14 @@ You can see the server apis by hitting `/explorer` path. eg.- "http://localhost:
 | Feedback  | It is used to store the feedback or comments of the users.  |
 
 ### Steps to run the server
-To run the server make sure your react client application is build properly and `client/build` folder contains index.html and related reources.
+To run the server make sure your react client application is build properly and *`client/build`* folder contains index.html and related reources.
 
-1. First install the node_modules using `npm install`
-2. Run the server using `npm start`
+1. First install the node_modules using *`npm install`*
+2. Run the server using *`npm start`*
 
 
 ## React Client Application
-React application is in the `client` folder. You can make changes in the application and rebuild it in a `build` folder.
+React application is in the *`client`* folder. You can make changes in the application and rebuild it in a *`build`* folder.
 This application demostrate the following ReacJs features.
 1. JSX
 2. Components
@@ -40,9 +40,11 @@ This application demostrate the following ReacJs features.
 12. Unite Testing with Jest and React Test Library
 13. Test coverage and reports.
 
-To build the cliient application run `npm run build` command.
-For unit testing run `npm run test` command.
-For test coverage run `npm run coverage` command.
+To build the cliient application run *`npm run build`* command.
+
+For unit testing run *`npm run test`* command.
+
+For test coverage run *`npm run coverage`* command.
 
 To run the application run server and visit `localhost:3000/`.
 
