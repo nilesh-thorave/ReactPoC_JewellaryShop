@@ -1,0 +1,41 @@
+{
+  "name": "product",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    },
+    "metal": {
+      "type": "string",
+      "required": true,
+      "default": "Gold"
+    },
+    "weight": {
+      "type": "number",
+      "required": true
+    },
+    "image": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
